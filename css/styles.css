@@ -1,0 +1,119 @@
+body{margin:0;font-family:"Montserrat",sans-serif}
+
+.main-page{width:100%;background:linear-gradient(270deg,#a5deff 0%,#fcfefe 100%)}
+
+.main-page-text-container{border-radius:40px;background:#fff;padding:60px;box-sizing:border-box}
+
+.wrapper{margin:auto;display:flex;justify-content:space-between;align-items:center;width:1170px;position:relative;}
+
+.main-page-hello-text{font-family:"Montserrat",sans-serif;font-weight:600;font-size:16px;;color:#1b1d1f;margin-top:0;margin-bottom:60px}
+
+.main-page-title{font-family:"Montserrat",sans-serif;font-weight:600;font-size:64px;color:#1b1d1f;margin-top:0;margin-bottom:24px}
+
+.main-page-descr{font-family:"Montserrat",sans-serif;font-weight:400;font-size:16px;color:#1b1d1f;margin-top:0;margin-bottom:32px}
+
+.main-page-button{border:none;border-radius:8px;padding:12px 24px;width:172px;height:48px;background:#ff6b0a;font-family:"Montserrat",sans-serif;font-weight:400;font-size:16px;color:#fff;cursor:pointer}
+
+.goit-logo{position:absolute;top:32px;left:0}
+.facts{padding:48px 95px 100px;text-align:center}
+.facts-trezub{margin-bottom:24px}
+.facts-title{margin-bottom:32px;font-weight:600;font-size:48px;color:#1b1d1f}
+.facts-descr{width:772px;font-weight:400;font-size:16px;text-align:center;color:#1b1d1f;margin:0 auto 32px}
+.facts-item{width:calc(100%/3 - 24px*2/3)}
+.facts-item-title{font-weight:600;line-height:100%;font-size:24px;text-align:center;color:#1b1d1f;margin-bottom:24px;margin-top:0}
+.facts-item-descr{font-weight:400;line-height:150%;font-size:16px;text-align:center;color:#1b1d1f;margin:0}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 0 80px;
+    background: linear-gradient(270deg, #a5deff 0%, #fcfefe 100%);
+}
+.form {
+    background: #fff;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 32px 60px 60px;
+    text-align: center;
+}
+.form-trysub{
+    margin-top: 0;   
+    margin-bottom: 32px;
+}
+.form-title{
+    margin-bottom: 12px;
+    margin-top: 0; 
+}
+
+.form-descr{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1d1f;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.form-field{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.form-field-label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1d1f;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.form-input {
+    border-radius: 8px;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #005bbb;
+}
+.form-field-name{
+    margin-bottom: 24px;
+}
+.form-field-email{
+    margin-bottom:48px;
+    }
+.form-input{
+    border-radius: 8px;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #005bbb;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1d1f;
+    padding:12px 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-btn {
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    background: #ff6b0a;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
